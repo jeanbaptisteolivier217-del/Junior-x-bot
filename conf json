@@ -1,0 +1,29 @@
+{
+  "botName": "junior x bot",
+  "ownerNumber": "50946358257",
+  "prefix": "!",
+  "mode": "public",
+
+  "security": {
+    "antiLink": true,
+    "antiSpam": true,
+    "maxSpam": 5,
+    "antiBadWords": true
+  },
+
+  "admin": {
+    "onlyOwnerCommands": true,
+    "autoKickSpam": false,
+    "autoKickLink": false
+  },
+
+  "messages": {
+    "welcome": "👋 Bienvenue dans le groupe !",
+    "goodbye": "👋 Au revoir !",
+    "spam": "⚠️ Stop spam !",
+    "link": "🚫 Liens interdits !",
+    "badword": "⚠️ Langage interdit !",
+    "adminOnly": "⛔ Commande réservée à l'admin",
+    "groupOnly": "⚠️ Groupe seulement"
+  }
+}
