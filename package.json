@@ -1,0 +1,22 @@
+{
+  "name": "junior x bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp sécurisé avec Baileys",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "security",
+    "baileys"
+  ],
+  "author": "junior x",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0"
+  }
+}
